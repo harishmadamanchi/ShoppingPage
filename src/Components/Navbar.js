@@ -4,7 +4,7 @@ export default function Navbar({cartCount}) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container px-4 px-lg-5">
-        <a className="navbar-brand" href="#!">
+        <a className="navbar-brand" >
           Start Bootstrap
         </a>
         <button
@@ -21,12 +21,12 @@ export default function Navbar({cartCount}) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#!">
+              <a className="nav-link active" aria-current="page" >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#!">
+              <a className="nav-link" >
                 About
               </a>
             </li>
@@ -43,7 +43,7 @@ export default function Navbar({cartCount}) {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a className="dropdown-item" href="#!">
+                  <a className="dropdown-item" >
                     All Products
                   </a>
                 </li>
@@ -51,12 +51,12 @@ export default function Navbar({cartCount}) {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#!">
+                  <a className="dropdown-item" >
                     Popular Items
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#!">
+                  <a className="dropdown-item" >
                     New Arrivals
                   </a>
                 </li>

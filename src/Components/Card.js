@@ -42,11 +42,11 @@ export default function Card({item, addItem, uniValue, removeCart}) {
         <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
           <div className="text-center">
               {item.cart ? 
-                <a className="btn btn-danger mt-auto" href="#" onClick = {() => {removeCart(uniValue)}}>
+                <a className="btn btn-danger mt-auto"  onClick = {() => {removeCart(uniValue)}}>
                     Remove
                 </a>
                   :
-                <a className="btn btn-outline-dark mt-auto" href="#" onClick = {() => {addItem(uniValue)}}>
+                <a className="btn btn-outline-dark mt-auto"  onClick = {() => {addItem(uniValue)}}>
                     Add to cart
                 </a>
               }
